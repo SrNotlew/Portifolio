@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(6, 1, 48);
+}
+p, h1{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    padding: 0 4em 0 4em;
+}
+.header{
+    margin: 3rem 0 3rem 0;
+    border: 5px dashed;
+    padding: 2rem;
+}
+
+.coluns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10vh 0 10vh 0;
+
+}
+.colum{
+    padding: 1.5rem;
+}
+.firstC{
+    padding-top: 8rem;
+}
+.firstC p{
+    font-size: 2.5em;
+}
+
+span.colorName{
+    color: greenyellow;
+    font-family: Fredoka One;
+}
+h2 > span{
+    font-size: 3em;
+}
+.divider2{
+    margin: 0 0 1rem 0;
+}
+.border{
+    border: 3px solid;
+}

@@ -11,14 +11,13 @@ p, h1, h3{
     color: aliceblue;
 }
 
-.container{
-    width: 100%;
-    padding: 0 3.5rem 0 3.5rem;
+#aboutMe  p{
+    font-size: 1.25rem;
 }
+
 /* Cabecalho */
 .header{
     margin: 0 0 3rem 0;
-    border: 5px dashed;
     padding: 2rem;
 }
 
@@ -57,12 +56,34 @@ h2 > span{
 
 .myPicture > img{
     width: 16rem;
-    border-radius: 100%;
 }
-.border{
-    border: 3px solid;
+.border-gradient{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
 }
 
 .colum > h3{
-    font-size: 3em;
+    font-size: 2.5em;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pad{
+    margin: 2em;
+}
+
+.progress{
+    margin: 0.75em
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

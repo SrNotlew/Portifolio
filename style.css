@@ -18,7 +18,7 @@ p, h1, h3{
 /* Cabecalho */
 .header{
     margin: 0 0 3rem 0;
-    padding: 2rem;
+    padding: 1.25rem;
 }
 
 .coluns{
@@ -29,14 +29,14 @@ p, h1, h3{
 
 }
 .colum{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 .firstC{
-    padding-top: 6rem;
-    margin-left: 6em;
+    padding-top: 3rem;
+    margin-left: 2em;
 }
 .firstC p{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 span.colorName{
@@ -44,11 +44,11 @@ span.colorName{
     font-family: Fredoka One;
 }
 h2 > span{
-    font-size: 2em;
+    font-size: 1.25em;
 }
 
 .thirdC > img{
-    margin-right: 12em;
+    margin-right: 5em;
 }
 .divider2{
     margin: 0 0 1rem 0;
@@ -65,7 +65,7 @@ h2 > span{
 }
 
 .colum > h3{
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .row{
@@ -86,4 +86,17 @@ h2 > span{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.card-text{
+    color: black;
+}
+
+button > a{
+    color: azure;
+    text-decoration: none;
+}
+
+.allCards{
+    margin: -3em 0 0 0 ;
 }

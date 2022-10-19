@@ -61,7 +61,7 @@ h2 > span{
     border: 10px solid;
     border-image-slice: 1;
     border-width: 5px;
-    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+    border-image-source: linear-gradient(to left, #00C853, #abff2e);
 }
 
 .colum > h3{
@@ -97,6 +97,12 @@ button > a{
     text-decoration: none;
 }
 
+ .btn-outline-light{
+    background-color: #00C853;
+}
 .allCards{
     margin: -3em 0 0 0 ;
+}
+.progress-bar{
+    background-color: #abff2e;
 }
